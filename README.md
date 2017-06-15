@@ -37,8 +37,15 @@ If Clinton received 4 votes, Trump received 5 votes, and the total number of vot
 If in another precint Clinton received 10 votes, Trump received 8 votes, and the total number of votes in that precinct was 20, there would be a Clinton data point at .5, a Trump data point at .4, and an 'Other' data point at .1. These would all be plotted at x=20.
 
 #### METHOD_2
-This directory contains scatter plots where the X-axis corresponds to the number of votes in each voting precinct (in increasing order) and the Y-axis corresonds to the ratio of votes for each candidate in the sum of all previously counted precincts
+This directory contains scatter plots where the X-axis corresponds to the number of votes in each voting precinct (in increasing order) and the Y-axis corresonds to the ratio of votes for each candidate as the sum of all previously counted precincts
 
 For example: (Assuming only 2 precincts in the county)
 If Clinton received 4 votes, Trump received 5 votes, and the total number of votes in that precinct was 10, there would be a Clinton data point at .4, a Trump data point at .5, and an 'Other' data point at .1. These would all be plotted at x=10.
 If in another precint Clinton received 10 votes, Trump received 8 votes, and the total number of votes in that precinct was 20, there would be a Clinton data point at .467 ((4+10)/30), a Trump data point at .433 ((5+8)/30), and an 'Other' data point at .1 ((1+2)/30). These would all be plotted at x=20.
+
+#### METHOD_3
+This directory contains scatter plots where the X-axis corresponds to the sum total of votes in all previously counted precincts (precincts added in increasing order) and the Y-axis corresonds to the ratio of votes for each candidate as the sum of all previously counted precincts
+
+For example: (Assuming only 2 precincts in the county)
+If Clinton received 4 votes, Trump received 5 votes, and the total number of votes in that precinct was 10, there would be a Clinton data point at .4, a Trump data point at .5, and an 'Other' data point at .1. These would all be plotted at x=10.
+If in another precint Clinton received 10 votes, Trump received 8 votes, and the total number of votes in that precinct was 20, there would be a Clinton data point at .467 ((4+10)/30), a Trump data point at .433 ((5+8)/30), and an 'Other' data point at .1 ((1+2)/30). These would all be plotted at x=30 (10+20).
