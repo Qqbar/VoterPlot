@@ -22,9 +22,9 @@ A repository for raw data, reduced data and plots from the US general election/s
         - sum_tot_year_state_county.html  (file/s)
 
 ## Data
-The raw data (as downloaded from each state's .gov website) is available in the data->year->state->raw directory, where year is the 4-digit election year, and state is the 2 character state abreviation.
+The raw data (as downloaded from each state's .gov website) is available in the data->year->state->raw directory, where year is the 4-digit election year, and state is the 2 character state abbreviation.
 
-The data->year->state->reduced directory contains a formatted subset of the raw data file for each state. Again, year is the 4-digit election year, and state is the 2 character state abreviation.
+The data->year->state->reduced directory contains a formatted subset of the raw data file for each state. Again, year is the 4-digit election year, and state is the 2 character state abbreviation.
 
 ## Results
 The resultant plots can be found in the results->year->state->METHOD directories.
